@@ -1,0 +1,141 @@
+
+
+//////andromikh synarthsh
+
+function fract(n){
+	if(n == 1)
+		return 1;
+	else
+		return n*fract(n-1);
+
+
+}
+
+x=fract(4);
+print(x,"------->to x:");
+
+
+
+
+
+b = 45;
+a = 43 + 56 +b;
+a="90dsfds \n";
+a = false;
+b = true;
+c = not b;
+a = true and true;
+print(a);
+
+print(" Hello World in Alpha!!!!!!! ");
+
+y=7;
+i=3+45+y;
+print(i);
+
+t=9;
+g = "trekse";
+print(g);
+
+for( i=0; i<20; i++){
+	
+	print("i-->",i);
+	
+}
+
+print(i);
+
+a = 100;
+zoi =  10 + 10;
+art = zoi * 10;
+
+
+print(art);
+
+function div(q,e){
+	yu = 0;
+	ui = 8;
+	op = 7;
+
+	function new(x,g){
+		l=x*g;
+		return l;
+	}
+
+	t=new(2,2);
+	print(t,"to t einai:");
+	c=q/e;
+	return c;
+
+}
+
+
+e=div(4,2);
+print(e);
+
+
+
+
+c=20;
+
+
+
+
+f=div(9,3);
+
+
+print("div----",f);
+
+////////////dot dot
+//asd = [0,1,2];
+//fdg = 1;
+//
+//x = asd.fdg;
+//print(x,"---------------------dot dot x=");
+////////////prosoxh
+
+
+
+
+/////pinakes me index string
+b=[{"zoe":34},{"art":45},{"dimitris":"hy340"}];
+dim = b["zoe"];
+sabidis = b["dimitris"];
+print(dim,"dim------");
+print(sabidis,"saddddd------");
+
+print(b["zoe"],"---b[zoe]",b["art"],"---b[art]");
+
+print("----EKTYPWSH PINAKA----");
+
+a=[34,56,23,389];
+i=0;
+while(i<4){
+	print(a[i]);
+	print(i);
+	i++;
+
+}
+print("-----TELOS------");
+
+x=a[0];
+print("to x einai ; ",x);
+
+a[0]=10;
+x=a[0];
+print("to x meta einai ; ",x);
+
+//////Elegxoi
+g = 200;
+j = 500;
+
+while(j>0){
+	if(g == 200 and j == 500){
+		print("In if");
+	}
+	else{
+		print("In else");
+	}
+	j=j-100;
+}
+

@@ -1,0 +1,19 @@
+0: <assign>  <#t_1>  <9>  <empty> 
+1: <assign>  <a>  <#t_1>  <empty> 
+2: <assign>  <#t_2>  <a>  <empty> 
+3: <assign>  <#t_3>  <45>  <empty> 
+4: <assign>  <g>  <#t_3>  <empty> 
+5: <assign>  <#t_4>  <g>  <empty> 
+6: <assign>  <#t_6>  <900>  <empty> 
+7: <assign>  <df>  <#t_6>  <empty> 
+8: <assign>  <#t_7>  <df>  <empty> 
+9: <jump>  <18>
+10: <funcstart>   <asd>  <empty> 
+11: <assign>  <#t_8>  <0>  <empty> 
+12: <assign>  <dimitris>  <#t_8>  <empty> 
+13: <assign>  <#t_9>  <dimitris>  <empty> 
+14: <assign>  <#t_10>  <0>  <empty> 
+15: <assign>  <zoi>  <#t_10>  <empty> 
+16: <assign>  <#t_11>  <zoi>  <empty> 
+17: <funcend>   <asd>  <empty> 
+18: <nop>

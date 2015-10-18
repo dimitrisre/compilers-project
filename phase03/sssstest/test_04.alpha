@@ -1,0 +1,21 @@
+y=5;
+function foo(x)
+{
+	if (x==0)
+	{
+		x=y;
+		bar(x);
+	}
+
+	function bar(y)
+	{
+		x=y;
+		bar(y);
+		foo(x);
+	}
+
+		bar(x+y);
+
+	for (local i; x=0 and (function (i){})(); ++i)
+		break;
+}

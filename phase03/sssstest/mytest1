@@ -1,0 +1,7 @@
+//f=4;
+
+//function a(){ return 4;}
+//a()()();
+//a().f().g.h.y.t;
+
+t = [ { "()": (function art(){}) }];

@@ -1,0 +1,167 @@
+
+1821;
+
+local id = local foo = global x = local z = 0;
+
+a and b or c == ++ x;
+
+a and b or c == -- local x;
+
+a and b or c == + x;
+
+b or c and j++ + !a;
+
+j+++a;
+
+a;
+
+-a;
+
+--a;
+
+---a;
+
+----a;
+
+-----a;
+
+------a;
+
+++a;
+
++++a;
+
+++++a;
+
+(((!!! a )));
+
+((( !!! a !!! b )));
+
+nil + true and "false"
+
+nil + true and false
+
+"nil" + true and "false"
+
+nil + true "and" false
+
+
+if ( a and b or c ) 4; else 5;
+
+if ( a and b or c ); else;
+
+if (a) else;
+
+if (a) if (b) if (c) else if (a) if (b) if (c);
+
+if (a) else if (a) else if (a);
+
+break;
+
+continue;
+
+return 4;
+
+{ return a and b; }
+
+{{{ 5; }}};
+
+function(){ a and b or c; };
+
+function(){ a and b or c; }
+
+function foo(a, b, c) { return c; }
+
+function(a, b + c) { return foo(a,b); }
+
+function(){ { a and b or c } };
+
+while ((function(){;})) { return 5; }
+
+for (local i = 0; i < 1821 and (function(){})();) break;
+
+
+a(a(a()));
+
+a(a)(a)(a)(a);
+
+a(a, a)(a, a)(a, a);
+
+a(a(a), a(a))(a(a), a(a));
+
+a()()()()()()()();
+
+a()()()()()()()(a);
+
+(function(){});
+
+(function(){})();
+
+(function(){ a and b; })()(5);
+
+(function(){5;})()(5);
+
+(fucntion(){5})()(5);
+
+(function(){})(());
+
+(function(){})()()()()(a);
+
+(function foo(a, b){ return a+b; })(function foo2(a, b){ return a-b; })();
+
+((function foo3( (function foo4(){;})() )));
+
+((function foo3( (function foo4(){;}) )));
+
+((function foo3( ((((function foo4(){;})))) )));
+
+((function foo3( (function foo4(){;})(()) )));
+
+[ (function(){;}), (function(){}), (function(){;})() ];
+
+
+[ { (function(){}) : local l }, { ++a : 0 } ];
+
+[ { (function(){}) : local l }, { 0 : ++a } ];
+
+[ { (function(){}) : local l }, ++a ];
+
+[ { a : b }, { c : d}, e, f, g, { h : i } ];
+
+[ { a : b }, { c }, d ];
+
+[ { a : b }, (function(){ c }) ];
+
+[ { a : b }, ((c)), d != 5 ];
+
+a.b.c.d.e.f().g.h().i
+
+a.b.c.d.e.f().g.h().i();
+
+
+
+
+a.b[c].d().e.f(g, h).i;
+
+a.b[c].d().e.f(g, h).i();
+
+a.b[c, j].d().e.f(g, h).i();
+
+a.b[[c, j]].d().e.f(g, h).i();
+
+a.b()()().c()()().d()()().e[]()["5"];
+
+a.b(1)[2](3)[4];
+
+a.b(1)[2](3)[4]();
+
+a.b(1)[2](3)[4][];
+
+a.b(1)[2](3)[4][5];
+
+a.b[1][2][3][4][5;];
+
+a.b[1][2][3][4][[(5)]];
+
+
+

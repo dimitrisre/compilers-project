@@ -1,0 +1,74 @@
+
+a(a(a()));
+
+a(a)(a)(a)(a);
+
+a(a, a)(a, a)(a, a);
+
+a(a(a), a(a))(a(a), a(a));
+
+a()()()()()()()();
+
+a()()()()()()()(a);
+
+(function(){});
+
+(function(){})();
+
+(function(){ a and b; })()(5);
+
+(function(){5;})()(5);
+
+
+(function(){})()()()()(a);
+
+(function foo(a, b){ return a+b; })((function foo2(a, b){ return a-b; }))();
+
+((foo3( (function foo4(){;})() )));
+
+((foo3( (function foo4(){;}) )));
+
+((foo3( ((((function foo4(){;})))) )));
+
+[ (function a1(){;}), (function(){}), (function(){;})() ];
+
+[ { (function a2(){}) : local l }, { ++a : 0 } ];
+
+[ { (function a3(){}) : local l }, { 0 : ++a } ];
+
+// [ { (function a4(){}) : local l }, ++a ];
+
+// [ { a : b }, { c : d}, e, f, g, { h : i } ];
+
+// [ { a : b }, { c }, d ];
+
+// [ { a : b },  { (function(){ c }) : 4 } ];
+
+[ { a : b }, { ((c)) : 3+2 }, { d != 5 : f != false }];
+
+a.b.c.d.e.f().g.h().i;
+
+a.b.c.d.e.f().g.h().i();
+
+a.b[c].d().e.f(g, h).i;
+
+a.b[c].d().e.f(g, h).i();
+
+// a.b[c, j].d().e.f(g, h).i();
+
+a.b[[c, j]].d().e.f(g, h).i();
+
+// a.b()()().c()()().d()()().e[]()["5"];
+a.b()()().c()()().d()()().e[1821]()["5"];
+
+a.b(1)[2](3)[4];
+
+a.b(1)[2](3)[4]();
+
+// a.b(1)[2](3)[4][];
+
+a.b(1)[2](3)[4][5];
+
+// a.b[1][2][3][4][5;];
+
+a.b[1][2][3][4][[(5)]];

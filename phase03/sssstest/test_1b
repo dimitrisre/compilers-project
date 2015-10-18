@@ -1,0 +1,42 @@
+//1821;
+
+//local id = local foo = global x = local z = 0;
+
+//a and b or c;
+
+a and b or c == --  x;
+
+// a and b or c == + x;
+/*
+b or c and j++ + not a;
+
+j+++a;
+
+a;
+
+-a;
+
+--a;
+
+//---a;
+
+//----a;
+
+//-----a;
+
+//------a;
+
+++a;
+// +++a;
+//++++a;
+
+// (((not not not  a )));
+
+// ((( not not not  a not not not  b )));
+
+nil + true and "false";
+nil + true and false;
+"nil" + true and "false";
+
+// nil + true "and" false;
+*/

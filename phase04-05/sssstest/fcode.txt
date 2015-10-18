@@ -1,0 +1,19 @@
+0 :  0(assign) 	 1(global),  1:#t_1 	 4(number), 	 0:9.000000 	
+1 :  0(assign) 	 1(global),  0:a 	 1(global), 	 1:#t_1 	
+2 :  0(assign) 	 1(global),  2:#t_2 	 1(global), 	 0:a 	
+3 :  0(assign) 	 1(global),  4:#t_3 	 4(number), 	 1:45.000000 	
+4 :  0(assign) 	 1(global),  3:g 	 1(global), 	 4:#t_3 	
+5 :  0(assign) 	 1(global),  5:#t_4 	 1(global), 	 3:g 	
+6 :  0(assign) 	 1(global),  8:#t_6 	 4(number), 	 2:900.000000 	
+7 :  0(assign) 	 1(global),  7:df 	 1(global), 	 8:#t_6 	
+8 :  0(assign) 	 1(global),  9:#t_7 	 1(global), 	 7:df 	
+9 :  12(jump) 	 0(label),  18 	
+10 :  15(funcenter) 	 8(userfunc),  0:asd 	
+11 :  0(assign) 	 3(local),  0:#t_8 	 4(number), 	 3:0.000000 	
+12 :  0(assign) 	 3(local),  4:dimitris 	 3(local), 	 0:#t_8 	
+13 :  0(assign) 	 3(local),  1:#t_9 	 3(local), 	 4:dimitris 	
+14 :  0(assign) 	 3(local),  2:#t_10 	 4(number), 	 4:0.000000 	
+15 :  0(assign) 	 3(local),  5:zoi 	 3(local), 	 2:#t_10 	
+16 :  0(assign) 	 3(local),  3:#t_11 	 3(local), 	 5:zoi 	
+17 :  16(funcexit) 	 8(userfunc),  0:asd 	
+18 :  18(nop) 	

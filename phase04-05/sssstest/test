@@ -1,0 +1,82 @@
+++A;
+++r;
+
+a = zoe ++;
+a= ++art;
+continue;
+break;
+b++;
+b--;
+
+f = (++g) + (g++);
+g = (--f) - (f--);
+
+b=-a;
+d=-3;
+zer=-3+4;
+- true;
+artemi = ( (5+2)+(zoi = 87) ) * (dimitris = 8);
+
+
+
+
+a=5;
+b=4.5;
+f=7.8;
+
+f = 9.8 + 5;
+
+mitsos = zoi = artemi = f = g = a + 15 - b * 40 / 900 % a + 15 - b * 40 / 900 % a + 15 - b * 40 / 900 % a + 15 - b * 40 / 900;
+
+
+
+global f--;
+h  = 10;
+{
+
+}
+local g--;
+
+{
+
+	local a++;
+	a = ++b + g - r - t  + ((tr + (34 * e))+(fsfds*43)) - 2005;
+	
+	::h = ty - (++e);
+}
+
+
+
+
+return a+b+n+g+h;
+return --bm;
+return k--;
+
+return --3;
+8;
+9;
+0;
+return 10;
+
+x>y;
+x<9;
+j>=7.777;
+v<=5.77;
+
+6>89;
+
+5>4.7;
+
+
+x != true;
+y == false;
+
+false != true;
+
+x == 5;
+
+x != 7.7;
+
+
+
+

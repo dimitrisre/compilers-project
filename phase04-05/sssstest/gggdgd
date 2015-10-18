@@ -1,0 +1,31 @@
+library Function = strtonum  
+VariableName = a Scope = 0 decline = 3 isActive=1
+library Function = tableindices  
+VariableName = #t_1 Scope = 0 decline = 3 isActive=1
+VariableName = #t_2 Scope = 0 decline = 3 isActive=1
+library Function = tablecopy  
+library Function = print  
+library Function = sqrt  
+library Function = argument  
+library Function = input  
+library Function = sin  
+library Function = cos  
+library Function = tablelength  
+library Function = totalarguments  
+library Function = typeof  
+VariableName = g Scope = 1 decline = 8 isActive=0
+VariableName = df Scope = 1 decline = 9 isActive=0
+VariableName = #t_3 Scope = 1 decline = 8 isActive=0
+VariableName = #t_4 Scope = 1 decline = 8 isActive=0
+VariableName = #t_5 Scope = 1 decline = 9 isActive=0
+VariableName = #t_6 Scope = 1 decline = 9 isActive=0
+VariableName = #t_7 Scope = 1 decline = 9 isActive=0
+FunctionName = asd Scope = 1 decline = 11 isActive=0
+FormalArguments:
+< k >< f >
+VariableName = #t_8 Scope = 3 decline = 13 isActive=0
+VariableName = #t_9 Scope = 3 decline = 13 isActive=0
+VariableName = #t_10 Scope = 3 decline = 14 isActive=0
+VariableName = #t_11 Scope = 3 decline = 14 isActive=0
+VariableName = dimitris Scope = 3 decline = 13 isActive=0
+VariableName = zoi Scope = 3 decline = 14 isActive=0

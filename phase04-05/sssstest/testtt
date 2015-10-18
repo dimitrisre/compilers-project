@@ -1,0 +1,61 @@
+rule:lvalue -> ID
+rule:const -> INTCONST
+rule:primary -> const
+rule:term -> primary
+rule:expr->term
+rule:assignexpr -> lvalue = expr
+rule:expr->assignexpr
+rule:stmt->expr ;
+rule:lvalue -> ID
+rule:const -> INTCONST
+rule:primary -> const
+rule:term -> primary
+rule:expr->term
+rule:assignexpr -> lvalue = expr
+rule:expr->assignexpr
+rule:stmt->expr ;
+rule:lvalue -> local ID
+rule:const -> INTCONST
+rule:primary -> const
+rule:term -> primary
+rule:expr->term
+rule:assignexpr -> lvalue = expr
+rule:expr->assignexpr
+rule:stmt->expr ;
+rule:fid -> ID
+rule:id1 -> , ID
+rule:id1s -> empty
+rule:id1s -> id1 id1s
+rule:idlist -> ID id1s
+rule:lvalue -> ID
+rule:const -> INTCONST
+rule:primary -> const
+rule:term -> primary
+rule:expr->term
+rule:assignexpr -> lvalue = expr
+rule:expr->assignexpr
+rule:stmt->expr ;
+rule:lvalue -> ID
+rule:const -> INTCONST
+rule:primary -> const
+rule:term -> primary
+rule:expr->term
+rule:assignexpr -> lvalue = expr
+rule:expr->assignexpr
+rule:stmt->expr ;
+rule:stmts->empty
+rule:stmts->stmt stmts
+rule:stmts->stmt stmts
+rule:block -> { stmts }
+rule:funcdef -> function fid ( idlist ) block
+rule:stmt->funcdef
+rule:stmts->empty
+rule:stmts->stmt stmts
+rule:stmts->stmt stmts
+rule:stmts->stmt stmts
+rule:block -> { stmts }
+rule:stmt->block
+rule:stmts->empty
+rule:stmts->stmt stmts
+rule:stmts->stmt stmts
+rule:programm->stmts

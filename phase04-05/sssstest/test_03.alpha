@@ -1,0 +1,38 @@
+(*
+  Test 03: Other constructs
+ *)
+
+if ( a and b or c ) 4; else 5;
+
+if ( a and b or c ); else;
+
+// if (a) else;
+
+if (a) if (b) if (c); else if (a) if (b) if (c);
+
+//if (a) else if (a) else if (a);
+
+break;
+
+continue;
+
+return 4;
+
+{ return a and b; }
+
+{{{ y; }}}
+(*
+function(){ a and b or c; };
+
+function(){ a and b or c; }
+
+function foo(a, b, c) { return c; }
+
+ function(a, b + c) { return foo(a,b); }
+
+ function(){ { a and b or c } };
+
+while ((function(){;})) { return 5; }
+
+for (local i = 0; i < 1821 and (function(){})();) break;
+*)
